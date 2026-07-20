@@ -1477,6 +1477,7 @@ if doosan_ticker in technical_data_map:
             "displaylogo": False,
             "scrollZoom": True,
         },
+        key="doosan_main_daily_chart",
     )
 
     latest_messages = []
@@ -1974,6 +1975,7 @@ with daily_tab:
             "displaylogo": False,
             "scrollZoom": True,
         },
+        key=f"detail_daily_chart_{detail_ticker}",
     )
 
 with volume_tab:
